@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_sendtime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_sendtime"
+            style="@style/chat_text_date_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon_default_profile"
+            android:focusable="false" />
+        
+        <FrameLayout 
+            android:id="@+id/content_framelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/chat_content_date_style"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:background="@drawable/chatfrom_bg">
+            
+            <ImageView 
+                android:id="@+id/player_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:src="@drawable/icon_record_player"
+                android:visibility="gone"
+                />
+            <ImageView 
+                android:id="@+id/thumb_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="150.0dip"
+                android:maxHeight="150.0dip"
+                android:adjustViewBounds="true"
+                android:src="@drawable/reward_add_big"
+                android:visibility="gone"/>
+            
+            <TextView 
+                android:id="@+id/tv_chatcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+            
+        </FrameLayout>
+        
+       
+        <TextView
+            android:id="@+id/tv_username"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/iv_userhead"
+            android:layout_toLeftOf="@id/content_framelayout" />
+    </RelativeLayout>
+
+</LinearLayout>

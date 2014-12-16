@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5.0dip"
+    tools:context=".EditMessageActivity" >
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_border"
+        android:padding="5.0dip"
+        android:gravity="top"
+        android:hint="最少输入11汉字，最多输入245汉字才能发出" />
+
+</LinearLayout>

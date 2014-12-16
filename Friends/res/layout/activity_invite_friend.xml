@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InviteFriendActivity" >
+
+    <LinearLayout 
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="60.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_phone"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邀请手机好友"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:text="向您手机通讯录中的好友发送邀请短信"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/light_grey"/>
+    
+    <LinearLayout 
+        android:id="@+id/wchat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="60.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_wchat"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邀请微信好友"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:text="向您的微信好友发送邀请信息"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/light_grey"/>
+    
+    <LinearLayout 
+        android:id="@+id/wave_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="60.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_wave"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="摇一摇"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:text="和您的朋友一起摇动手机来添加好友"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

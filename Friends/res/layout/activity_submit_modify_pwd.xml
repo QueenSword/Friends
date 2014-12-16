@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20.0dip"
+    android:paddingRight="20.0dip"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    tools:context=".SubmitModifyPwdActivity" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <com.friends.android.RoundImageView
+            
+            android:layout_width="140.0dip"
+            android:layout_height="140.0dip"
+            android:src="@drawable/icon_default_profile"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+            
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s"
+                android:textColor="@color/blue"
+                android:layout_marginRight="5.0dip"
+                android:layout_gravity="right"/>
+            
+            <TextView 
+                android:id="@+id/count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15.0dip"
+                android:text="60"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="30.0sp"
+                android:textColor="@color/blue"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重新发送"
+                android:textColor="@color/blue"/>
+        </LinearLayout>
+    </FrameLayout>
+    
+    <EditText 
+        android:id="@+id/code_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:hint="验证码"
+        android:padding="5.0dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/textview_border"/>
+    
+    <LinearLayout 
+        android:layout_marginTop="10.0dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <EditText 
+            android:id="@+id/pwd_edittext"
+        android:layout_width="0.0dip"
+        android:layout_weight="1"
+        android:layout_height="50.0dip"
+        android:hint="新密码"
+        android:padding="5.0dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/textview_border"/>
+        
+        <ImageView 
+            android:id="@+id/ok_imageview"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:padding="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:background="@color/white"
+            android:src="@drawable/icon_arrow_ok"
+            />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".YaoYiYaoActivity" >
+
+    <ImageView 
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_margin="10.0dip"
+        android:src="@drawable/icon_wave"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:textColor="@color/white"
+        android:text="寻找与你身边一起摇动手机的朋友"/>
+    
+    <TextView
+        android:id="@+id/count_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="找到了0位好友" />
+    
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"></ListView>
+
+</LinearLayout>

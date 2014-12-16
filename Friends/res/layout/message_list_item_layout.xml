@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    
+     >
+    
+    <com.friends.android.RoundImageView 
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_margin="5.0dip"
+        android:src="@drawable/ic_launcher"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:layout_width="0.0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="张海参|Lov"
+                android:textSize="18.0sp"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="$5.0"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15:32"
+                android:layout_margin="5.0dip"/>
+            
+        </LinearLayout>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20.0dip"
+            android:singleLine="true"
+            android:text="拉萨进锻炼腹肌阿拉跨世纪的弗兰克卢卡斯交电费了啊卢卡斯交电费了看阿是辣椒粉"
+            android:ellipsize="end"/>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

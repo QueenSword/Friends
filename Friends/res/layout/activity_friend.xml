@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FriendActivity" >
+    
+    <LinearLayout 
+        android:id="@+id/new_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <ImageView 
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_default_profile"
+            />
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新朋友"/>
+            
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="通过通讯录匹配的您可能认识的朋友学习学习"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:gravity="center">
+        
+        <ImageView 
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/icon_star"/>
+        
+    </LinearLayout>
+    
+    
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+    
+    
+</LinearLayout>

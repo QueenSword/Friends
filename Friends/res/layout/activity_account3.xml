@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    android:padding="10.0dip"
+    tools:context=".Account3Activity" >
+
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/textview_border"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/icon_friend"/>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账户余额"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$578"
+                android:textSize="30.0sp"
+                android:textColor="@color/blue"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/textview_border"
+        android:hint="对方账户名"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/textview_border"
+        android:hint="转账金额"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"/>
+  
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:gravity="center"
+        android:background="@drawable/bg_nav_orange"
+        android:text="下一步"/>
+</LinearLayout>

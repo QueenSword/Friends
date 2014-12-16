@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60.0dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    <View 
+        android:id="@+id/color_view"
+        android:layout_width="4.0dip"
+        android:layout_height="match_parent"
+        android:background="@color/new_communication_count"/>
+    
+    <ImageView
+        android:id="@+id/imageview" 
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_margin="5.0dip"
+        android:background="@color/new_communication_count"
+        android:src="@drawable/icon_rm_white"/>
+    
+    <FrameLayout 
+        android:layout_width="0.0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/textview" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="没有需要搭桥的信息"
+            />
+        
+        <HorizontalScrollView 
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+            
+            <LinearLayout 
+                android:id="@+id/linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                
+            </LinearLayout>
+            
+        </HorizontalScrollView>
+        
+    </FrameLayout>
+    
+    <TextView 
+        android:id="@+id/count_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:padding="5.0dip"
+        android:textColor="@color/white"
+        android:background="@drawable/textview_corner_red"/>
+
+</LinearLayout>

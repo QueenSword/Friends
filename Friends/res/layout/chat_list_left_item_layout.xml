@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <ImageView 
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_margin="10.0dip"
+        android:src="@drawable/ic_launcher"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="60.0dip"
+        android:padding="5.0dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="了空间阿斯兰的解放路进萨拉克订房间了卡撒娇的弗兰克了卡萨角度来看非金属的弗兰克叫啊索拉卡京东方"/>
+    
+
+</LinearLayout>

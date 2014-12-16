@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"/>
+        <ImageView 
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="40.0dip"
+        android:gravity="center_vertical"
+        android:background="@color/light_grey5">
+        
+        <ImageView 
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/ic_launcher"/>
+        
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="手机号码"
+            android:background="@null"/>
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center_vertical"
+        android:background="@color/light_grey5">
+        
+        <ImageView 
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/ic_launcher"/>
+        
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:background="@null"/>
+        
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40.0dip"
+        android:padding="10.0dip"
+        android:text="忘记密码？"
+        android:textColor="@color/blue"
+        />
+    
+    <ImageView 
+        android:id="@+id/login_imageview"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5.0dip"
+        android:src="@drawable/ic_launcher"/>
+    
+</LinearLayout>

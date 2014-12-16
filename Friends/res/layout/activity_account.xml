@@ -1,0 +1,203 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10.0dip"
+    android:background="@color/light_grey"
+    android:orientation="vertical"
+    tools:context=".AccountActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/textview_border"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/icon_friend"/>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账户余额"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$578"
+                android:textSize="30.0sp"
+                android:textColor="@color/blue"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1.0dip"
+        android:background="@drawable/textview_border"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/icon_add_blue"/>
+        
+        <TextView 
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0.00"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3月05日"
+            android:layout_marginRight="5.0dip"/>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1.0dip"
+        android:background="@drawable/textview_border"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/icon_add_blue"/>
+        
+        <TextView 
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0.00"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3月05日"
+            android:layout_marginRight="10.0dip"/>
+        
+        
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/more_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="20.0dip"
+        android:layout_marginTop="-1.0dip"
+        android:background="@drawable/textview_border"
+        android:src="@drawable/icon_more_gray_16"/>
+    
+    <LinearLayout 
+        android:id="@+id/account1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/textview_border">
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_account1"
+            />
+        
+        <TextView 
+            android:layout_width="0.0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="充值"
+            android:layout_marginLeft="10.0dip"/>
+        
+        <ImageView 
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/icon_gray_arrow_12"/>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/account2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="-1.0dip"
+        android:background="@drawable/textview_border">
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_account2"
+            />
+        
+        <TextView 
+            android:layout_width="0.0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="提现"
+            android:layout_marginLeft="10.0dip"/>
+        
+        <ImageView 
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/icon_gray_arrow_12"/>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/account3_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-1.0dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/textview_border">
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_account3"
+            />
+        
+        <TextView 
+            android:layout_width="0.0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="转账"
+            android:layout_marginLeft="10.0dip"/>
+        
+        <ImageView 
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/icon_gray_arrow_12"/>
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

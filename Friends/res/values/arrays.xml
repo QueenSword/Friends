@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="field_array">
+        <item>媒体传播</item>
+        <item>IT网络</item>
+        <item>电商</item>
+        <item>广告公关</item>
+        <item>科研及高教</item>
+        <item>医疗卫生</item>
+        <item>人文及高教</item>
+        <item>法律服务</item>
+        <item>市场及商业</item>
+        <item>慈善公益</item>
+        <item>工程及制造</item>
+        <item>设计装潢</item>
+        <item>咨询及中介</item>
+        <item>文化艺术</item>
+        <item>政党及组织</item>
+        <item>公务行政</item>
+        <item>教育及培训</item>
+        <item>自由职业</item>
+        <item>体育及演艺</item>
+    </string-array>
+    
+        <string-array name="sound_array">
+        <item>朋友回复我发布的信息</item>
+        <item>朋友发布的信息</item>
+        <item>新的沟通信息</item>
+        <item>需要搭桥的消息</item>
+        <item>系统消息</item>
+    </string-array>
+
+</resources>

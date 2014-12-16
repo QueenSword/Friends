@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <include android:id="@+id/system_message_item"
+        layout="@layout/main_list_system_message_item_layout"/>
+    
+    <include android:id="@+id/new_message_item"
+        layout="@layout/main_list_new_message_item_layout"/>
+    
+    <include android:id="@+id/new_communication_item"
+        layout="@layout/main_list_new_communication_item_layout"/>
+    
+    <include android:id="@+id/new_rm_communication_item"
+        layout="@layout/main_list_new_rm_communication_item_layout"/>
+    
+    <include android:id="@+id/current_communication_item"
+        layout="@layout/main_list_current_communication_item_layout" />
+
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

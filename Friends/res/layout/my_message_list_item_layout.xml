@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/date_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4.0dip"
+        android:gravity="center"
+        android:background="@color/light_grey"
+        android:text="2014-09-21"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:id="@+id/avatar_imageview"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/icon_default_profile"/>
+        
+        <TextView 
+            android:id="@+id/content_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2.0dip"
+            android:layout_gravity="center"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="螺丝孔龙卷风卢卡斯经典款了房间阿斯利康的积分卡拉斯京东方卡拉斯的进口量放假啊SD卡疗法SD卡连房间卡拉斯的斯蒂芬卡拉是经典款了房间阿斯顿浪费"
+            android:ellipsize="end"/>
+        
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

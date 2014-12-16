@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_margin="10.0dip"
+                android:src="@drawable/icon_default_profile" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A2" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/status_imageview"
+            android:layout_width="0.0dip"
+            android:layout_height="40.0dip"
+            android:layout_weight="1"
+            android:src="@drawable/icon_communication_blue" />
+
+        <LinearLayout
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_margin="10.0dip"
+                android:src="@drawable/icon_default_profile" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三等奖" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@color/light_grey"/>
+    
+    <ListView 
+        android:id="@+id/detail_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"></ListView>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/light_grey"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+        <ImageView android:id="@+id/ok_imageview"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_ok_green"/>
+        
+        <ImageView android:id="@+id/cancle_imageview"
+            android:layout_width="0.0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/icon_cancel"/>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
