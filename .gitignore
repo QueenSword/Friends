@@ -1,7 +1,5 @@
 *.class
 .metadata
-/SlidingMenu Library
 /EventBus
-/actionbarsherlock
 /Friends/libs
 /Friends/bin
